@@ -85,7 +85,7 @@ def update_status():
 # HTML Template with dynamic chart sizing and working add/edit functionality
 @app.route('/')
 def index():
-    return render_template('dashboard.html')
+    return render_template('index.html')
 
 # ---------------- Flask Routes ----------------
 @app.route('/status')
